@@ -1,0 +1,31 @@
+.A {
+    background-color: #a558df;
+    width: 900px;
+    height: 300px;
+}
+
+.filhaA_B {
+    background-color: #e877ee;
+    width: 80%;
+    height: 50%;
+}
+
+.filhaB_C {
+    color: #382b38;
+    background-color: rgb(236, 173, 246);
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.D {
+    width: 70%;
+    height: 30vh;
+    background-color: rgb(91, 16, 109);
+}
+
+.filhaD_E {
+    width: 65   vw;
+    height: 30%;
+    background-color: rgb(133, 31, 200);
+}

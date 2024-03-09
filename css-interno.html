@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-interno</title>
+
+    <style>
+        .A {
+            background-color: #37d1c1;
+            width: 700px;
+            height: 300px;
+        }
+
+        .filhaA_B {
+            background-color: #e877ee;
+            width: 100%;
+            height: 50%;
+        }
+
+        .filhaB_C {
+            color: #d65a5a;
+            background-color: rgb(225, 222, 222);
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+
+        .D {
+            width: 30%;
+            height: 30vh;
+            background-color: rgb(66, 138, 245);
+        }
+
+        .filhaD_E {
+            width: 40vw;
+            height: 40%;
+            background-color: rgb(240, 193, 82);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="A">
+
+        <div class="filhaA_B">
+
+            <p class="filhaB_C">
+                Um dia da caça, outro do caçador
+            </p>
+
+        </div>
+    </div>
+
+    <!-- 1vh will be 1% of the height of the iframe -->
+    <!-- and 1vw will be 1% of the width of the document -->
+    <div class="D">
+
+        <div class="filhaD_E">
+        </div>
+
+    </div>
+</body>
+
+</html>
